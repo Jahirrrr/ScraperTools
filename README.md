@@ -15,7 +15,7 @@ $ npm install scraper-tools
 const scrapertools = require('scraper-tools');
 
 /*
-scraperbox.jenis-modul.nama-modul(params)
+scrapertools.jenis-modul.nama-modul(params)
 .then(res => console.log(res))
 .catch(err => console.log(err))
 */
