@@ -1,0 +1,35 @@
+{
+  "name": "scraper-tools",
+  "version": "1.0.0",
+  "description": "ScraperTools Made By ZSofttt",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZSofttt/ScraperTools.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest api",
+    "api",
+    "zhirrr",
+    "scraper",
+    "npm"
+  ],
+  "author": "ZSofttt // contactzsoft@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Zhirrr/ScraperTools/issues"
+  },
+  "homepage": "https://github.com/Zhirrr/ScraperTools#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bent": "^7.3.12",
+    "cheerio": "^1.0.0-rc.10",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "node-scrapy": "^0.5.0"
+  }
+}
