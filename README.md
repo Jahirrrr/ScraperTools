@@ -83,7 +83,7 @@ Output :
   <summary><b>List dari modul di atas (jenis-modul = film)</b> (tekan untuk melihat)</summary>
 
 | nama modul | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | bioskopcomingsoon | - | JSON | Mencari data film bioskop yang akan hadir |
 
 </details>
@@ -117,7 +117,7 @@ Output :
   <summary><b>List dari modul di atas (jenis-modul = bmkg)</b> (tekan untuk melihat)</summary>
 
 | nama modul | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | gempaterkini | - | JSON | Mencari data gempa terkini di Indonesia |
 
 </details>
@@ -189,7 +189,7 @@ Output :
   <summary><b>List dari modul di atas (jenis-modul = wallpaper)</b> (tekan untuk melihat)</summary>
 
 | nama modul | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | wallpaper | search &  page | JSON | Mencari gambar wallpaper dalam format JSON |
 
 </details>
@@ -219,7 +219,7 @@ Output :
   <summary><b>List dari modul di atas (jenis-modul = kemdikbud)</b> (tekan untuk melihat)</summary>
 
 | nama modul | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | kbbi | kata | JSON | Mencari arti kata di Kamus Besar Bahasa Indonesia |
 
 </details>
@@ -271,14 +271,14 @@ Output :
   <summary><b>List dari modul di atas (jenis-modul = stayhalal)</b> (tekan untuk melihat)</summary>
 
 | nama modul | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | datamasjid | provinsi & page | JSON | Menampilkan data masjid di Indonesia |
 
 </details>
 
 Note : untuk melihat listkota, gunakan ini :
 ```js
-scraperbox.stayhalal.liskota()
+scrapertools.stayhalal.liskota()
 .then(res => console.log(res))
 .catch(err => console.log(err))
 ```
