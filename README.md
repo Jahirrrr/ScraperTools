@@ -1,4 +1,4 @@
-# ScraperTools
+# ScraperTools [ DEPRECATED ]
 Official ScraperTools NPM Package
 
 
